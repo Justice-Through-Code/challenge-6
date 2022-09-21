@@ -19,13 +19,13 @@ restaurant_1 = {
 
 
 def explore_data():
-    # 1.1 TODO: Print the latitude and longitude of Four Barrel Coffee, using one print statement.
+    # 1.1 TODO: Print the URL of the website of Four Barrel Coffee.
 
-    # 1.2 TODO: Print the complete address of the Four Barrel Coffee, formatted as a string - 
-    # it should include the address, city, state and the zip code, e.g.:
+    # 1.2 TODO: Print the latitude and longitude of Four Barrel Coffee, using one print statement.
+
+    # 1.3 TODO: Print the complete address of the Four Barrel Coffee, formatted as a string - 
+    # it should include the address, city, state and the zip code, with commas between them e.g.:
     # "375 Valencia St, San Francisco, CA, 94103"
-
-    # 1.3 TODO: Print the URL of the website of Four Barrel Coffee.
 
 
 def favorite_restaurant():
@@ -35,13 +35,11 @@ def favorite_restaurant():
 
     # 2.2 TODO: Ask the user for the restaurant `name`, `address`, and their `favorite_dish`
     # Add all three of these as key value pairs in your new dictionary, ala:
-    '''
-        favorite_restaurant  = {
-            "name": "Subway",
-            "address" : "116th & Broadway, NY 10016",
-            "favorite_dish" : "Chicken BLT Sandwich"
-        }
-    '''
+    #    favorite_restaurant  = {
+    #        "name": "Subway",
+    #        "address" : "116th & Broadway, NY 10016",
+    #        "favorite_dish" : "Chicken BLT Sandwich"
+    #    }
 
     # 2.3 TODO: Print out your dictionary to make sure it populated correctly
 
@@ -58,12 +56,11 @@ def favorite_restaurant():
     # for the key `address`
 
 
-
 def clean_print():
     # It's hard to read the contents of a dictionary when we print the whole thing out.
 
     # 3.1 TODO: Instead, loop through each item-pair in the `restaurant_1` dictionary
     # and print out each key and value on their own line, ala:
-    #      `name Four Barrel Coffee
-    #       url https://www.yelp.com/biz/four-barrel-coffee-san-francisco`
+    #      `name: Four Barrel Coffee
+    #       url: https://www.yelp.com/biz/four-barrel-coffee-san-francisco`
     # etc etc
