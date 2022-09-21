@@ -20,6 +20,7 @@ Begin getting comfortable with creating, accessing, and updating dictionaries
 
 Follow the instructions in `restaurant_data.py` to complete this challenge. 
 
+And REMEMBER: Comment out or delete the calls to your functions-- the tests can't run with them!
 ---
 
 ## Summary
