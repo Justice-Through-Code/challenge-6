@@ -45,10 +45,10 @@ def favorite_restaurant():
 
     # 2.3 TODO: Print out your dictionary to make sure it populated correctly
 
-    # Oh no, the restaurant stopped serving your favorite dish!
+    # Oh no, the restaurant stopped serving the user's favorite dish!
     # 2.4 TODO: Remove the `favorite_dish` key/value pair from the dictionary
 
-    # 2.5 TODO: Print out the dictionary again. This time, the dictionary dictionary 
+    # 2.5 TODO: Print out the dictionary again. This time, the dictionary 
     # should only contain a 'name' and 'address' for that restaurant
 
     # Looks like the restaurant is going through a lot of changes-- they moved!
@@ -64,6 +64,6 @@ def clean_print():
 
     # 3.1 TODO: Instead, loop through each item-pair in the `restaurant_1` dictionary
     # and print out each key and value on their own line, ala:
-    #      `"name" "Four Barrel Coffee"
-    #       "url" "https://www.yelp.com/biz/four-barrel-coffee-san-francisco"`
+    #      `name Four Barrel Coffee
+    #       url https://www.yelp.com/biz/four-barrel-coffee-san-francisco`
     # etc etc
